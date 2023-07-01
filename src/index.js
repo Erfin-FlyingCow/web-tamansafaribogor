@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Component/App'
 import Navbar from './Component/Navbar';
+import Mimage from './Component/Mimage';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <App />
+    <Mimage />
   </React.StrictMode>
 );
 
