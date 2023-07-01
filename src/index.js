@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './Component/Navbar';
 import Mimage from './Component/Mimage';
+import Footer from './Component/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Mimage />
+    <Footer />
   </React.StrictMode>
 );
 
