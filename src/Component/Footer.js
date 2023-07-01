@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default function Footer() {
+
+
   return (
     <div className="bg-zinc-400">
       <div className="container mx-auto py-4 text-white">
@@ -49,3 +51,7 @@ export default function Footer() {
     </div>
   );
 }
+
+
+
+
