@@ -1,13 +1,11 @@
 import React from 'react';
 
 export default function Footer() {
-
-
   return (
     <div className="bg-zinc-400">
       <div className="container mx-auto py-4 text-white">
         <div className="flex flex-row justify-between">
-          <div>
+          <div className='cotainer text-center content-center  space-x-4 space-y-2'>
             <div className="text-xs font-medium">Sosmed Kami</div>
             <div className="flex">
               <a href="https://www.facebook.com/tamansafaribogor" target='blank' className="mr-4">
@@ -26,7 +24,7 @@ export default function Footer() {
               </a>
               <a href="https://twitter.com/TSI_Bogor" target='blank' className="mr-4">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1096614485231423568/1124644107432767488/logo_twt.png"
+                  src="https://cdn.discordapp.com/attachments/1096614485231423568/1124925137087631420/logo_twt.png"
                   alt="Twitter"
                   className="h-6 w-6 text-gray-600 hover:text-gray-800"
                 />
@@ -51,7 +49,5 @@ export default function Footer() {
     </div>
   );
 }
-
-
 
 
