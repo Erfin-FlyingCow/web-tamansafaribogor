@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="flex sm:justify-center space-x-10">
           <img src='http://surl.li/ipnrz' alt='logo' className='h-20'></img>
           {[
-            ['Home', '/index'],
+            ['Home', '#'],
             ['Facilities', '#'],
             ['About Us', '#'],
             ['Reservation', '#'],
