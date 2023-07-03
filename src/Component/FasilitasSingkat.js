@@ -16,6 +16,7 @@ export default function FasilitasSingkat() {
   return (
     <div className="bg-gray-300">
       <div className="container mx-auto">
+        <div className="text-"></div>
         <div className="flex flex-row space-x-6">
           <div className="w-1/3 p-5 hover:scale-110 relative">
             <img className="rounded-t-lg"
