@@ -4,10 +4,12 @@ import SlideShowImage from "../Component/SlideShowImage"
 
 const About = () => {
     return(
-        <div>
+        <div className="bg-slate-100">
             <SlideShowImage />
-            <Sejarah />
-            <Dokumentasi />
+            <div>
+                <Sejarah />
+                <Dokumentasi />
+            </div>
 
         </div>
     )

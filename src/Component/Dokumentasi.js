@@ -12,9 +12,9 @@ export default function Dokumentasi() {
     
 
     return(
-        <div className='mb-10'>
+        <div className=' max-w-4xl mx-auto bg-zinc-50 opacity-80 pb-10 transition-all '>
             <h1 className="text-center text-3xl text-green-900 font-bold underline mb-10">Dokumentasi</h1>
-            <div className="grid grid-cols-3 grid-rows-2 gap-12 mx-auto w-3/5 ">
+            <div className="grid grid-cols-3 grid-rows-2 gap-12 mx-auto w-3/5 opacity-100 ">
                 {images.map((image, index) => (
                     <img key={index} src={image} alt={`${index + 1}`}/>
                 ))}
