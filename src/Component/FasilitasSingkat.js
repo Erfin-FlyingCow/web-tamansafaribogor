@@ -14,7 +14,7 @@ export default function FasilitasSingkat() {
               alt="Gambar Fasilitas"
               style={{ maxWidth: "100%", height: "auto" }}
             />
-                <h1 className="align-middle text-center p-3 text-green-900 font-serif text-green-900">Wisata Hewan</h1>
+                <h1 className="align-middle text-center p-3 text-green-900 font-serif hover:text-green-950">Wisata Hewan</h1>
           
             
           </div>
