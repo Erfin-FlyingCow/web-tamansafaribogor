@@ -1,6 +1,6 @@
 export default function Sejarah() {
   return (
-    <div className="min-w-0 max-w-4xl mx-auto bg-white">
+    <div className="min-w-0 max-w-4xl mx-auto bg-zinc-50 opacity-80">
         <div className="mx-8 py-8 text-2xl text-justify text-green-900">
             <h2 className="text-3xl font-bold">Sejarah Taman Safari Bogor</h2>
             <div>
