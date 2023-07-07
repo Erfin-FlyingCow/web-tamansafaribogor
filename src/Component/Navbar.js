@@ -3,7 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <div className='relative'>
-      <div className='bg-zinc-400'>
+      <div className='bg-green-800'>
         <nav className="flex sm:justify-center space-x-10">
           <img src='http://surl.li/ipnrz' alt='logo' className='h-20'></img>
           {[

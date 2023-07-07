@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className="bg-zinc-400">
+    <div className="bg-orange-400">
       <div className="container mx-auto py-4 text-white">
         <div className="flex flex-row justify-between">
           <div className='cotainer text-center content-center  space-x-4 space-y-2'>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
           <div>
             <div className="flex flex-col">
-              <div className="bg-zinc-400">
+              <div className="bg-orange-400">
                 <div className="px-4 py-2">
                   <div>Alamat Kami:</div>
                   <div>Jl. Kapten Harun Kabir No.724,</div>
