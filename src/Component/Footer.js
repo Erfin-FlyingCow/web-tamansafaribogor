@@ -33,7 +33,9 @@ export default function Footer() {
           </div>
           <div>
             <div className="flex flex-col">
+
               <div>
+
                 <div className="px-4 py-2">
                   <div>Alamat Kami:</div>
                   <div>Jl. Kapten Harun Kabir No.724,</div>
