@@ -24,9 +24,58 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Taman Safari Bogor</title>
+    <style>
+      .popup {
+          display: none;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #ffffff;
+          padding: 20px;
+          border: 1px solid #cccccc;
+          z-index: 9999;
+      }
+
+      .overlay {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 9998;
+      }
+  </style>
+
+  <title>Taman Safari Bogor</title>
   </head>
   <body>
+  <!-- <div class="popup" id="popup">
+      <h1 align="center" style="color: red;">Perhatian !! </h1><p> Situs ini dibuat untuk memenuhi Tugas Mata Kuliah Pemrograman Web Dasar.
+        Bila ingin ke situs asli, silahkan klik link berikut: 
+        <a href="https://bogor.tamansafari.com/" style="color: blue;">Taman Safari Bogor</a>
+      </p>
+      
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <script>
+      window.onload = function() {
+          var popup = document.getElementById("popup");
+          var overlay = document.getElementById("overlay");
+
+          popup.style.display = "block";
+          overlay.style.display = "block";
+
+          overlay.onclick = function() {
+              popup.style.display = "none";
+              overlay.style.display = "none";
+          };
+      };
+  </script> -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,4 +89,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    window.onload = function() {
+        var popup = document.getElementById("popup");
+        var overlay = document.getElementById("overlay");
+
+        popup.style.display = "block";
+        overlay.style.display = "block";
+
+        overlay.onclick = function() {
+            popup.style.display = "none";
+            overlay.style.display = "none";
+        };
+    };
+</script>
 </html>
