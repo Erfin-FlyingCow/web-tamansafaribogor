@@ -19,8 +19,8 @@ class ScrollTop extends React.Component {
   render() {
     return (
         <div className='text-right mr-4 text-2xl'>
-            <button onClick={this.handleClick} >
-                ^
+            <button style="background-color: silver; padding: 10px; border: none; outline: none; cursor: pointer; position: relative;">
+              &#9650;
             </button>
             
         </div>
