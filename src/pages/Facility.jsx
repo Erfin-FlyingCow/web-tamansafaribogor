@@ -1,6 +1,9 @@
+
+import ScrollTop from "../Component/ScrollTop"
 import Wisatahewan from '../Component/Hewan';
 import Wahanapermainan from '../Component/Permainan';
 import Hotel from '../Component/Hotel';
+
 
 const Facility = () => {
     return(
@@ -8,6 +11,7 @@ const Facility = () => {
             <Wisatahewan />
             <Wahanapermainan />
             <Hotel />
+            <ScrollTop/>
         </div>
     )
 }
