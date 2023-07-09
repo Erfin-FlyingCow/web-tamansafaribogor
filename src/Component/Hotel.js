@@ -6,7 +6,7 @@ export default function Hotel(){
     <div className="flex justify-center items-center">
       <img
         src="https://cdn.discordapp.com/attachments/1096614485231423568/1126437682734698536/Hotel.jpg"
-        alt="hewan"
+        alt="hotel"
         className="rounded-xl shadow-xl"
         style={{ height: '400px', width: '700px' }}
       />

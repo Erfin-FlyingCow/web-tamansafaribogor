@@ -6,7 +6,7 @@ export default function Wahanapermainan() {
         <div className="flex justify-center items-center">
           <img
             src="https://cdn.discordapp.com/attachments/1096614485231423568/1126434542681604106/climbing.png"
-            alt="hewan"
+            alt="permaian"
             className="rounded-xl shadow-xl"
             style={{ height: '400px', width: '700px' }}
           />
