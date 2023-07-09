@@ -8,10 +8,10 @@ import Hotel from '../Component/Hotel';
 const Facility = () => {
     return(
         <div>
-            <ScrollTop/>
             <Wisatahewan />
             <Wahanapermainan />
             <Hotel />
+            <ScrollTop/>
         </div>
     )
 }
