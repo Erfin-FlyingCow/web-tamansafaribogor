@@ -7,9 +7,7 @@ import Home from './pages/Home';
 import Facility from './pages/Facility';
 import About from './pages/About';
 import Reservation from './pages/Reservation';
-import Wahanapermainan from './Component/Permainan';
-import Wisatahewan from './Component/Hewan';
-import Hotel from './Component/Hotel';
+
 
 
 
