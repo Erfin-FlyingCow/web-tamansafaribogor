@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, } from 'react';
+import $ from 'jquery';
 
 export default function Form () {
     const [nama, setNama] = useState('');
@@ -6,33 +7,28 @@ export default function Form () {
     const [notelp, setNoTelp] = useState('');
     const [jumlahOrang, setJumlahOrang] = useState('');
     const [tanggalReservasi, setTanggalReservasi] = useState('');
+    const formRef = useRef(null);
 
     const handleSubmit = (event) => {
         event.preventDefault();
         alert('Reservasi Berhasil dilakukan');
-
-
-        // Mengosongkan nilai-nilai input setelah submit
-        setNama('');
-        setEmail('');
-        setNoTelp('');
-        setJumlahOrang('');
-        setTanggalReservasi('');
-
+        handleReset();
     };
 
     const handleReset = () => {
+        $(formRef.current).trigger('reset');
         setNama('');
         setEmail('');
         setNoTelp('');
         setJumlahOrang('');
         setTanggalReservasi('');
+
     };
 
     return (
         <div className="max-w-2xl mx-auto my-auto p-8 rounded-md shadow-2xl bg-slate-100 ">
             <h1 className="text-2xl font-bold mb-4">Form Reservasi Kunjungan Taman Safari</h1>
-            <form onSubmit={handleSubmit}>
+            <form ref={formRef} onSubmit={handleSubmit}>
                 <div className="mb-4">
                     <label htmlFor="nama" className="block font-bold mb-2">Nama:</label>
                     <input 
@@ -104,7 +100,7 @@ export default function Form () {
 
                 <div className="flex justify-between">
                     <button
-                        type="reset"
+                        type="botton"
                         onClick={handleReset}
                         className="px-4 py-2 bg-gray-300 text-white rounded hover:bg-gray-400"
                     >
