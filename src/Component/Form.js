@@ -50,7 +50,7 @@ export default function Form () {
                 <div className="mb-4">
                     <label htmlFor="email" className="block font-bold mb-2">Email:</label>
                     <input
-                        placeholder=''
+                        placeholder='Email Aktif'
                         type="email"
                         id="email"
                         name="email"
@@ -64,6 +64,7 @@ export default function Form () {
                 <div className="mb-4">
                     <label htmlFor="notelp" className="block font-bold mb-2">No. Telepon:</label>
                     <input
+                        placeholder='contoh : +62xxx-xxxx-xxxx'
                         type="tel"
                         id="notelp"
                         name="notelp"
@@ -77,6 +78,7 @@ export default function Form () {
                 <div className="mb-4">
                     <label htmlFor="jumlahOrang" className="block font-bold mb-2">Jumlah Orang:</label>
                     <input
+                        placeholder='Reservasi untuk berapa orang'
                         type="number"
                         id="jumlahOrang"
                         name="jumlahOrang"
