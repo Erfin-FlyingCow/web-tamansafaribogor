@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
       <div className='bg-gray-200'>
         <nav className="flex sm:justify-center space-x-10">
-          <img src='http://surl.li/ipnrz' alt='logo' className='h-20'></img>
+          <img src='https://cdn.discordapp.com/attachments/1096614485231423568/1124227532301008957/logo-removebg-preview.png' alt='logo' className='h-20'></img>
           {[
 
             ['Home', '/'],
