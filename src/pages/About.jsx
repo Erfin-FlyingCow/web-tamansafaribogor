@@ -1,5 +1,4 @@
 import Dokumentasi from "../Component/Dokumentasi"
-import ScrollTop from "../Component/ScrollTop"
 import Sejarah from "../Component/Sejarah"
 import SlideShowImage from "../Component/SlideShowImage"
 
@@ -11,7 +10,6 @@ const About = () => {
                 <Sejarah />
                 <Dokumentasi />
             </div>
-            <ScrollTop />
 
         </div>
     )
